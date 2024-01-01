@@ -1,4 +1,4 @@
-def format_string(str):
+def format_string(str) -> str:
     interrogatives = ("Who", "What", "When", "Where", "Why", "How")
     str_capitalized = str.capitalize()
     if str_capitalized.startswith(interrogatives):
@@ -17,5 +17,6 @@ while True:
     else:
         break
 
-# Printing all recorded user inputs
-print(" ".join(user_input_list))
+print()
+# Printing all recorded user inputs in chronological order
+print("\n".join(user_input_list))
