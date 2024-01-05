@@ -12,3 +12,4 @@ fg.add_child(folium.Marker(location=[38, -99], popup="Marker1", icon=folium.Icon
 map.add_child(fg)
 
 map.save("Section 15 - Web Mapping App/test/testMap1.html")
+print("Save successful!")

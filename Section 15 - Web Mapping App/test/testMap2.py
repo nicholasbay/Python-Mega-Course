@@ -12,3 +12,4 @@ for coordinates in [[38.2, -99.1], [38, -99], [37.8, -98.9]]:
 map.add_child(fg)
 
 map.save("Section 15 - Web Mapping App/test/testMap2.html")
+print("Save successful!")

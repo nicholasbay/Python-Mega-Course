@@ -19,3 +19,4 @@ for lt, ln, name in zip(lat, lon, names):
 map.add_child(fg)
 
 map.save('Section 15 - Web Mapping App/test/testMap3.html')
+print("Save successful!")
