@@ -14,9 +14,8 @@ def main():
 
     map = folium.Map(location=[41.87, -116.12], zoom_start=5)
 
-    fg_volcanoes = folium.FeatureGroup(name="Volcanoes")
-
     # Volcano layer
+    fg_volcanoes = folium.FeatureGroup(name="Volcanoes")
     for lt, ln, name, elev, tp in zip(lat, lon, names, elevs, types):
         html = f"""
             <h4><a href="https://www.google.com/search?q={name}+volcano" target="_blank"> {name}</a> Information</h4>
